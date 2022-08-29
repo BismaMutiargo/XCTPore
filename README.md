@@ -1,5 +1,5 @@
 # XCTPore
-Public database containing images and mask pair of X-ray CT slices
+//Public database containing images and mask pair of X-ray CT slices//
 
 
 The dataset is stored in a Google Cloud Bucket and can be downloaded with the instructions from Annex A. The Bucket contains files like MA001_train, MA001_mask, MA002_train, MA002_mask …. TC002_train, TC002_mask. Each file is a .npy file and can be loaded with the np.save function. 
@@ -11,3 +11,10 @@ Files with “_mask” contains the mask for the training image in a (300, h, w)
 For Example, a file named “MA001_train” means it is the training image for class MA001. The corresponding mask can be found in the file named “MA001_mask”
 
 
+
+**Download Instructions**
+1.	Go to Google Cloud Platform page: https://cloud.google.com/ . Click “Get started for free”
+![alt text](https://github.com/BismaMutiargo/XCTPore/blob/main/Images/Step%201.png)
+
+2. Follow the instructions on the screen until all three steps are completed.
+![alt text](https://github.com/BismaMutiargo/XCTPore/blob/main/Images/Step%202.png)
