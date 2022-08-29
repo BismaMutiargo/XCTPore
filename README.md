@@ -61,7 +61,13 @@ gsutil -u PROJECT-NAME cp -r gs://datatest_13/XCTPore SAVE_DIRECTORY
 **Warning:** The command above will charge about USD$0.50 to your GCP account if it is executed without error. Any downloads will incur charges to your GCP account. It is to do the following before proceeding:
 •	Ensure a stable internet connection
 •	Download the entire dataset and keep a backup of the original dataset on your local machine to minimize charges. 
-11.	To contribute to dataset, run the following command:
+
+
+
+
+
+**CONTRIBUTING TO THE DATASET**
+To contribute to dataset, run the following command:
 ```
 gsutil -u PROJECT-NAME cp -r DATASET_DIRECTORY gs://datatest_13/upload_xctpore
 ```
