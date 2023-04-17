@@ -2,6 +2,12 @@
 A public database containing images and mask pair of X-ray CT slices
 
 
+
+** UPDATE 17/4/2023  **
+- TC001 mask and training data uploaded (.npy format) 
+- *D series is not available for download (TD,and MD) 
+***********************
+
 **Introduction**
 
 The dataset is stored in a Google Cloud Bucket. The Bucket contains files like MA001_train, MA001_mask, MA002_train, MA002_mask …. TC002_train, TC002_mask. Each file is a .npy file and can be loaded with the np.save function. 
